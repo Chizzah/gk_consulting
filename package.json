@@ -8,12 +8,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^5.3.0",
     "next": "12.0.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-intersection-observer": "^8.32.2",
+    "typeface-lora": "^1.1.13",
+    "typeface-poppins": "^1.1.13"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.3.4",
+    "autoprefixer": "^10.4.0",
     "eslint": "7",
-    "eslint-config-next": "12.0.3"
+    "eslint-config-next": "12.0.3",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
   }
 }
