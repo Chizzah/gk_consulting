@@ -17,7 +17,7 @@ export default function FadeInImageWithText({
       {imageRight ? (
         <FadeIntoView>
           <div className="flex flex-col items-center justify-center overflow-hidden text-secondary bg-primary lg:py-0 lg:flex-row lg:h-[70vh]">
-            <div className="relative w-full lg:order-2 lg:w-[60%] h-full">
+            <div className="relative w-full lg:order-2 md:h-96 lg:w-[60%] h-60 lg:h-full">
               <Image src={src} alt={alt} layout="fill" objectFit="cover" />
             </div>
             <div className="w-full md:py-12 lg:py-0 lg:order-1 lg:w-[40%]">
@@ -44,7 +44,7 @@ export default function FadeInImageWithText({
       ) : (
         <FadeIntoView>
           <div className="flex flex-col items-center justify-center overflow-hidden text-secondary bg-primary lg:py-0 lg:flex-row lg:h-[70vh]">
-            <div className="relative w-full lg:w-[60%] h-full">
+            <div className="relative w-full lg:w-[60%] h-60 md:h-96 lg:h-full">
               <Image src={src} alt={alt} layout="fill" objectFit="cover" />
             </div>
             <div className="w-full md:py-12 lg:py-0 lg:order-1 lg:w-[40%]">

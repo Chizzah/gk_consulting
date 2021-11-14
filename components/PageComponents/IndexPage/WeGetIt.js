@@ -25,7 +25,7 @@ export default function WeGetIt() {
           </div>
         </div>
         <div className="relative h-[20vh] md:h-[50vh] lg:h-[70vh] grid place-items-center bg-accent text-primary text-center group md:group-hover:blur-sm">
-          <h2 className="text-3xl font-bold uppercase lg:text-4xl group-hover:blur-sm">
+          <h2 className="text-3xl font-bold uppercase lg:text-4xl md:group-hover:blur-sm">
             we care!
           </h2>
           <div className="absolute top-0 left-0 z-40 hidden w-full h-full mx-auto bg-opacity-50 ring-primary ring-2 bg-primary md:group-hover:block hover-animation">
