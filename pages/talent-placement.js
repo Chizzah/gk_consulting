@@ -1,46 +1,34 @@
 import Layout from "../components/Shared/Layout";
 import Service from "../components/Shared/Service";
-import Hero from "../components/PageComponents/CapabilitiesPage/Hero";
+import TalentPlacementHero from "../components/PageComponents/CapabilitiesPage/TalentPlacementHero";
 
 export default function TalentPlacement() {
   return (
     <Layout>
-      <Hero />
+      <TalentPlacementHero />
       <Service
         imageRight
-        title="Postioning"
-        content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi minus
-          accusantium consequuntur quis porro esse qui culpa, quod autem soluta.
-          Sunt esse maiores necessitatibus quidem consectetur magnam. Ea, unde
-          accusantium."
+        title="IT or Tech Recruitment Specialists"
+        content="Web Developers. Software Developers or Engineers. Business Analysts. Scrum Masters. Product Owners. User Experience Designers. User Interface Designers. Product Designers. User Experience Researchers."
         src="https://via.placeholder.com/720x480"
         alt="Placeholder image"
       />
       <Service
-        title="Postioning"
-        content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi minus
-          accusantium consequuntur quis porro esse qui culpa, quod autem soluta.
-          Sunt esse maiores necessitatibus quidem consectetur magnam. Ea, unde
-          accusantium."
+        title="Sales and Marketing Recruitment Specialists"
+        content="Account Managers. Account Executives. Digital Marketing Specialists. Graphic Designers. SEO Specialists. Analysts."
         src="https://via.placeholder.com/720x480"
         alt="Placeholder image"
       />
       <Service
         imageRight
-        title="Postioning"
-        content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi minus
-          accusantium consequuntur quis porro esse qui culpa, quod autem soluta.
-          Sunt esse maiores necessitatibus quidem consectetur magnam. Ea, unde
-          accusantium."
+        title="Supply Chain or Logistics Recruitment Specialists"
+        content="Demand Planning Analysts. Procurement Managers. Distribution Centre Supervisors. Fleet Managers. Facilities Managers."
         src="https://via.placeholder.com/720x480"
         alt="Placeholder image"
       />
       <Service
-        title="Postioning"
-        content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi minus
-          accusantium consequuntur quis porro esse qui culpa, quod autem soluta.
-          Sunt esse maiores necessitatibus quidem consectetur magnam. Ea, unde
-          accusantium."
+        title="Finance and Operations Recruitment Specialists"
+        content="Payroll Managers. Payroll Specialists. Financial Analysts. Quantitative Analysts. Project Managers. Project Coordinators. Change Management Specialists."
         src="https://via.placeholder.com/720x480"
         alt="Placeholder image"
       />

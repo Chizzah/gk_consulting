@@ -8,18 +8,17 @@ export default function WeGetIt() {
           </h2>
           <div className="absolute top-0 left-0 z-40 hidden w-full h-full mx-auto bg-opacity-25 ring-accent ring-2 bg-accent md:group-hover:block hover-animation">
             <div className="flex flex-col items-center justify-center w-1/2 h-full mx-auto space-y-4">
-              <h2>Lorem ipsum dolor sit amet.</h2>
+              <h2 className="uppercase">we get it</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Blanditiis, cumque. Doloribus, expedita nulla. Enim
-                reprehenderit rerum repellendus magni numquam nulla ipsam, ipsum
-                doloremque totam quia quam, aliquid nihil accusamus illum?
+                Whether you are a small company or a large enterprise, we
+                understand that when you are looking for the right person to
+                bring onboard your team or company - the right person has more
+                than simply ticking all technical skills requirements.
               </p>
               <p className="hidden lg:block">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut,
-                inventore molestias accusamus commodi eius corrupti! Cupiditate,
-                a. Facilis doloribus quis deserunt rem id, expedita consequuntur
-                adipisci porro aliquam laboriosam.
+                As you strive for your dreams, we know that sometimes, making a
+                career move is not only about changing jobs but, actually
+                investing in the right move to progress your career.
               </p>
             </div>
           </div>
@@ -30,18 +29,20 @@ export default function WeGetIt() {
           </h2>
           <div className="absolute top-0 left-0 z-40 hidden w-full h-full mx-auto bg-opacity-50 ring-primary ring-2 bg-primary md:group-hover:block hover-animation">
             <div className="flex flex-col items-center justify-center w-1/2 h-full mx-auto space-y-4">
-              <h2>Lorem ipsum dolor sit amet.</h2>
+              <h2 className="uppercase">we care</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Blanditiis, cumque. Doloribus, expedita nulla. Enim
-                reprehenderit rerum repellendus magni numquam nulla ipsam, ipsum
-                doloremque totam quia quam, aliquid nihil accusamus illum?
+                Our vision is to offer responsible recruitment services to
+                everyone we engage with. Call it `talent` or `human capital` or
+                `human resources`, it is a key component to building and
+                sustaining successful businesses. People are every businesses
+                most important asset, people help create value, and having the
+                right people can help every business triumph.
               </p>
               <p className="hidden lg:block">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut,
-                inventore molestias accusamus commodi eius corrupti! Cupiditate,
-                a. Facilis doloribus quis deserunt rem id, expedita consequuntur
-                adipisci porro aliquam laboriosam.
+                Career decisions are one of the biggest decisions that you will
+                make in your lifetime - you want to know that you are
+                collaborating with people who understand the importance of these
+                decisions.
               </p>
             </div>
           </div>
